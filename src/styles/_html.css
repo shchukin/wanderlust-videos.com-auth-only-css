@@ -1,0 +1,10 @@
+html {
+    min-width: 1240px; /* Use same desktop version on tablets, force horizontal scrollbar there that will turn to zoom */
+}
+
+@media (width < 740px) {
+
+    html {
+        min-width: 320px;
+    }
+}
